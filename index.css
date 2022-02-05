@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:ital,wght@0,100;0,300;1,200&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color:#02386e ;
+    font-family: "poppins";
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.container{
+    display: flex;
+    flex-direction: column;    
+}
+h1{
+    font-size: 60px;
+    margin-bottom: 100px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+.count-down{
+    display: flex;
+}
+.big-text{
+    font-size: 30px;
+}
+.count{
+    margin-right: 30px;
+}
+ .count p{
+    font-size:50px; 
+    font-weight: bold;
+    margin-left: 0px;
+    text-align: center;
+}
+ h1,p,span{
+        color: white;
+    }
+.count span{
+    font-size:30px; 
+    font-weight: regular;
+    text-align: center;
+}
+@media only screen and (max-width:768px) {
+    h1{
+        font-size: 40px!important;
+    }
+    .count p{
+        font-size: 40px!important;
+
+    }
+    .count span{
+        font-size:25px!important;   
+    }
+    h1,p,span{
+        color: white;
+    }
+    
+}
